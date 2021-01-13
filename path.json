@@ -1,0 +1,48 @@
+{ 
+    "stores" :[   
+    {
+    "storeNumber": "1",
+    "id": "1501",
+    "name": "Store1",
+    "phoneNumber": "310-659-9562",
+    "coordinates":  {
+        "latitude": 18.93629942964397, 
+        "longitude": 72.83652160421936
+                    }
+    },
+  
+    {
+        "storeNumber": "2",
+        "id": "1502",
+        "name": "Store2",
+        "phoneNumber": "310-659-9562",
+        "coordinates":  {
+            "latitude": 18.519513240920734, 
+            "longitude":73.86802639237582
+                        }   
+    }, 
+   
+    {
+        "storeNumber": "3",
+        "id": "1503",
+        "name": "Store3",
+        "phoneNumber": "310-659-9562",
+        "coordinates":  {
+            "latitude": 17.42152127200402,  
+            "longitude":78.4601169788582
+                        }   
+    },
+    
+   
+    {
+        "storeNumber": "4",
+        "id": "1504",
+        "name": "Store4",
+        "phoneNumber": "310-659-9562",
+        "coordinates":  {
+            "latitude": 22.85856873854587,  
+            "longitude":88.17611855575709
+                        }   
+    }
+]
+}

@@ -1,4 +1,4 @@
-// Menu but ton
+// Menu button
 
 $(document).ready(function() {
     $(".menu-icon").on("click", function() {
@@ -21,6 +21,20 @@ $(window).on("scroll", function() {
 //Geolocation
 if (navigator.geolocation) 
       navigator.geolocation.getCurrentPosition(function(position) {
-      console.log(position);
+      //console.log(position);
+      let lat= position.coords.latitude;
+      let long=position.coords.longitude;
+      console.log(lat,long);
       });
 
+//calculating nearest store location
+      
+//fetch json 
+fetch("path.json")
+      .then(response=>response.json())
+      .then(data=>{
+            let address= data
+            console.log(address)
+                  })
+
+//parsing through

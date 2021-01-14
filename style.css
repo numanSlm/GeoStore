@@ -115,13 +115,17 @@ nav ul li a {
 
 }
 
-.heading {
+.heading1{
     font-size: 60px;
-    color: #191919;
+    color:black;
     font-family:"Helvetica Neue",sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    height: 70%;
+}
+.city1,.city2,.city3,.city4{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 70px;
 }

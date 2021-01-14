@@ -30,11 +30,12 @@ if (navigator.geolocation)
 //calculating nearest store location
       
 //fetch json 
-fetch("path.json")
+
+      fetch("path.json")
       .then(response=>response.json())
       .then(data=>{
             let address= data
             console.log(address)
                   })
-
+            
 //parsing through

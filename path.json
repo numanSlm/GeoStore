@@ -5,8 +5,8 @@
                         {
                         "storeNumber": "Mum1",
                         "id": "1501",
-                        "name": "Store1",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store11",
+                        
                         "coordinates":  {
                             "latitude": 18.93629942964397, 
                             "longitude": 72.83652160421936
@@ -15,8 +15,8 @@
                         {
                         "storeNumber": "Mum2",
                         "id": "1502",
-                        "name": "Store1",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store12",
+                        
                         "coordinates":  {
                             "latitude": 18.93629942964397, 
                             "longitude": 72.83652160421936
@@ -26,8 +26,8 @@
                         {
                         "storeNumber": "Mum3",
                         "id": "1503",
-                        "name": "Store1",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store13",
+                        
                         "coordinates":  {
                             "latitude": 18.93629942964397, 
                             "longitude": 72.83652160421936
@@ -36,8 +36,8 @@
                         {
                         "storeNumber": "Mum4",
                         "id": "1504",
-                        "name": "Store1",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store14",
+                        
                         "coordinates":  {
                             "latitude": 18.93629942964397, 
                             "longitude": 72.83652160421936
@@ -49,8 +49,8 @@
                         {
                         "storeNumber": "Pune1",
                         "id": "1601",
-                        "name": "Store2",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store21",
+                        
                         "coordinates":  {
                             "latitude": 18.519513240920734, 
                             "longitude":73.86802639237582
@@ -59,8 +59,8 @@
                         {
                         "storeNumber": "Pune2",
                         "id": "1602",
-                        "name": "Store2",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store22",
+                        
                         "coordinates":  {
                             "latitude": 18.93629942964397, 
                             "longitude": 72.83652160421936
@@ -70,8 +70,8 @@
                         {
                         "storeNumber": "Pune3",
                         "id": "1603",
-                        "name": "Store2",
-                        "phoneNumber": "310-659-9562",
+                        "name": "Store23",
+                        
                         "coordinates":  {
                             "latitude": 18.519513240920734, 
                             "longitude":73.86802639237582
@@ -80,8 +80,8 @@
                         {
                             "storeNumber": "Pune4",
                             "id": "1604",
-                            "name": "Store2",
-                            "phoneNumber": "310-659-9562",
+                            "name": "Store24",
+                            
                             "coordinates":  {
                                 "latitude": 18.519513240920734, 
                                 "longitude":73.86802639237582
@@ -94,8 +94,8 @@
                             {
                             "storeNumber": "Hyderabad1",
                             "id": "1701",
-                            "name": "Store3",
-                            "phoneNumber": "310-659-9562",
+                            "name": "Store31",
+                            
                             "coordinates":  {
                                 "latitude": 17.42152127200402,  
                                 "longitude":78.4601169788582
@@ -104,8 +104,8 @@
                             {
                                 "storeNumber": "Hyderabad2",
                                 "id": "1702",
-                                "name": "Store3",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store32",
+                                
                                 "coordinates":  {
                                     "latitude": 17.42152127200402,  
                                     "longitude":78.4601169788582
@@ -114,8 +114,8 @@
                             {
                                 "storeNumber": "Hyderabad3",
                                 "id": "1703",
-                                "name": "Store3",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store33",
+                                
                                 "coordinates":  {
                                     "latitude": 17.42152127200402,  
                                     "longitude":78.4601169788582
@@ -124,8 +124,8 @@
                             {
                                 "storeNumber": "Hyderabad4",
                                 "id": "1704",
-                                "name": "Store3",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store34",
+                                
                                 "coordinates":  {
                                     "latitude": 17.42152127200402,  
                                     "longitude":78.4601169788582
@@ -138,8 +138,8 @@
                             {
                                 "storeNumber": "KolKata1",
                                 "id": "1801",
-                                "name": "Store4",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store41",
+                                
                                 "coordinates":  {
                                     "latitude": 22.85856873854587,  
                                     "longitude":88.17611855575709
@@ -148,8 +148,8 @@
                             {
                                 "storeNumber": "KolKata2",
                                 "id": "1802",
-                                "name": "Store4",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store42",
+                                
                                 "coordinates":  {
                                     "latitude": 22.85856873854587,  
                                     "longitude":88.17611855575709
@@ -158,8 +158,8 @@
                             {
                                 "storeNumber": "KolKata3",
                                 "id": "1803",
-                                "name": "Store4",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store43",
+                                
                                 "coordinates":  {
                                     "latitude": 22.85856873854587,  
                                     "longitude":88.17611855575709
@@ -168,8 +168,8 @@
                             {
                                 "storeNumber": "KolKata4",
                                 "id": "1804",
-                                "name": "Store4",
-                                "phoneNumber": "310-659-9562",
+                                "name": "Store44",
+                                
                                 "coordinates":  {
                                     "latitude": 22.85856873854587,  
                                     "longitude":88.17611855575709

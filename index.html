@@ -37,58 +37,224 @@
                   </nav>
 
             </header>
+      <div class="heading1">Our Stores</div>
       </div>
-      <!-- Loacator -->
-      <div class="loaction-wrap">
-            <div class="container">
-                  <div class="nav-wrapper">
 
-                        <!--Store head-->
-                        <div class="container-fluid">
-                              <div class="heading1">Our Stores</div>
-                        </div>
-                        <!--location tab-->
-                        <div class="Locatin-tab">
-                              <div class="tabs">
-                                    <div class= "city">
-                                          <div class= "col-md-3 col-sm-6 city1" >
-                                                <h3>USA</h3>
-                                          </div>
-                                          <div class= "col-md-3 col-sm-6 city2">
-                                                <h3>Russia</h3>
-                                          </div>
-                                          <div class= "col-md-3 col-sm-6 city3">
-                                                <h3>Italy</h3>
-                                          </div>
-                                          <div class= "col-md-3 col-sm-6 city3">
-                                                <h3>France</h3>
-                                          </div>
-
-                                    </div>
-                                    <!--Entire city Block-->
-                                   <div class ="city-blk flex">
-                                         <!--map-->
-                                          <div class ="location_map flex">
-                                                <img src="img/Mu.jpg" class="rounded mx-auto d-block" alt="Place">
-
-                                          </div>
-                                          <!--text-->
-                                          <div class="location_text-wrap">
-                                                <div class="loc_heading">
-                                                      Fort,CST
-                                                </div>
-                                          <!--address-->
-                                                <div class="addressblk loaction-text">
-                                                      <span>Address :</span> F-58, First Floor Inorbit Mall, Link Road Malad (West), Mumbai - 400064
-                                                </div>
-                                          <!--Map display-->
-                                                <div class="mapwrap">
-                                                      <div class="view-blk"><a target="_blank" href="">View On Google Map</a>
-                                                </div>
-                                          </div>
-                                    <!--Block end-->
-                                    </div>
+            <div class="tabs">
+                              <div class= "city">
+                                    <button class="col-xs-12 col-md-3 col-sm-6 cit" onclick="openCity(event, 'Mumbai')">Mumbai</button>
+                                    <button class="col-xs-12 col-md-3 col-sm-6 cit" onclick="openCity(event, 'Pune')">Pune</button>
+                                    <button class="col-xs-12 col-md-3 col-sm-6 cit" onclick="openCity(event, 'Hyderabad')">Hyderabad</button>
+                                    <button class="col-xs-12 col-md-3 col-sm-6 cit" onclick="openCity(event, 'Kolkata')">Kolkata</button>
+                              </div>
+                            
             </div>
+            <!--tabend-->
+            <!--Mum whole wrapper-->
+                        <div class="city-container-wrapper" id="Mumbai">
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div>
+                                    <div class="city-container row tabcontent">
+                                          <div class="image-container col-lg-6 col-md-12">
+                                                <img src="./Img/Mu.jpg" alt="" />
+                                          </div>
+                                          <div class="city-info col-lg-6 col-md-12">
+                                                <h2>Mumbai wala, Malad(W)</h2>
+                                                <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                                <p><span class="detail">Tel no: </span>022-20128221</p>
+                                                <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                                <p><span class="detail">Working Days: </span>All Days</p>
+                                                <h6><a href="#">View on Google Map</a></h6>
+                                                <div class="icons-container"></div>
+                                                <button class="btn btn-primary">Read More</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div>
+                                    <div class="city-container row tabcontent">
+                                    <div class="image-container col-lg-6 col-md-12">
+                                          <img src="./Img/Mu.jpg" alt="" />
+                                    </div>
+                                    <div class="city-info col-lg-6 col-md-12">
+                                          <h2>Mumbai wala 2, Malad(W)</h2>
+                                          <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                          <p><span class="detail">Tel no: </span>022-20128221</p>
+                                          <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                          <p><span class="detail">Working Days: </span>All Days</p>
+                                          <h6><a href="#">View on Google Map</a></h6>
+                                          <div class="icons-container">
+
+                                          </div>
+                                          <button class="btn btn-primary">Read More</button>
+                                    </div>
+                              </div>
+                        </div>
+                        </div>
+
+                  </div>
+            
+               <!--Pune whole wrapper-->         
+                  <div class="city-container-wrapper" id="Pune">
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Pune wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Pune  2 wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                  </div>
+                   <!--End pune wrapper--> 
+                  
+                  <!--Hyderabad whole wrapper-->         
+                  <div class="city-container-wrapper" id="Hyderabad">
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Hyderabad wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Hyderabad  2 wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                  </div>
+                   <!--End Hyd wrapper--> 
+
+                  <!--Kolkata whole wrapper-->         
+                  <div class="city-container-wrapper" id="Kolkata">
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Kolkata wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="container">  
+                              <!--City1 loc1-->
+                              <div class="city-container row tabcontent">
+                              <div class="image-container col-lg-6 col-md-12">
+                                    <img src="./Img/Mu.jpg" alt="" />
+                              </div>
+                              <div class="city-info col-lg-6 col-md-12">
+                                    <h2>Kolkata  2 wala hai</h2>
+                                    <p><span class="detail">Address: </span>F-58, first flooor, Mumbai</p>
+                                    <p><span class="detail">Tel no: </span>022-20128221</p>
+                                    <p><span class="detail">Timing: </span>10:00 am to 9:20pm</p>
+                                    <p><span class="detail">Working Days: </span>All Days</p>
+                                    <h6><a href="#">View on Google Map</a></h6>
+                                    <div class="icons-container">
+
+                                    </div>
+                                    <button class="btn btn-primary">Read More</button>
+                              </div>
+                              </div>
+                        </div>
+                  </div>
+                   <!--End kol wrapper--> 
+                  
+<!--Footer-->
+<footer id="sc-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <div class="sc-footer-area">
+             <div class="sc-footer-social">
+              <a href="#" target="_blank"><span class="fa fa-facebook"></span></a>
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-google-plus"></span></a>
+             <!-- <a href="#"><span class="fa fa-linkedin"></span></a>-->
+              <a href="#"><span class="fa fa-youtube"></span></a>
+            </div>
+            <div class="sc-footer-copyright">
+              <p>&copy; Copyright <a rel="nofollow" href="index.html">Stores</a>. All right reserved.</p>
+            </div>         
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+<!--end foot-->
+                
 
     
       <script type="text/javascript" src="mapper.js"></script>

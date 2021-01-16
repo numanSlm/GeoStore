@@ -130,7 +130,7 @@ nav ul li a {
 /*end tabs*/
 
 .city-container{
-    border: 1px solid white;
+    border: 1px solid black;
     min-height: 40vh;
     width: auto;
     height: auto;
@@ -141,13 +141,16 @@ nav ul li a {
 .image-container{
     /*border: 2px solid black;*/
     width:auto;
-    height: 30vh;
+    height: 40vh;
     padding: 2vh;
+    padding-bottom: 5vh;
     margin-top: 2vh
 }
 .image-container > img {
     border:white;
     padding: 2px;
+    padding-left:10vh;
+    padding-right: 10vh;
     width: 100%;
     height: 100%;
 }
@@ -198,6 +201,34 @@ nav ul li a {
 
 }
 
+/*icon-container*/
+
+
+/*icon-end*/
+.icons-container{
+    display: inline;
+    float: left;
+    width: 100%;
+    
+    margin-bottom: 10px;
+}
+.icons-container a {
+    background-color: #555;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 45px;
+    line-height: 47px;
+    margin: 5px;
+    text-align: center;
+    width: 45px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 /* FOOTER */
 
 #sc-footer {
